@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <a href="./index.html">Go to home</a>
+      <h1>Form</h1>
+
+      <div class="container">
+        <form class="feedback-form js-feedback-form">
+          <label>
+            <input
+              name="email"
+              type="email"
+              class="feedback-form-input js-feedback-email"
+              placeholder="Input email"
+          /></label>
+          <label>
+            <textarea
+              name="message"
+              class="feedback-form-message"
+              placeholder="Input message"
+            ></textarea>
+          </label>
+          <button class="feedback-form-submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
